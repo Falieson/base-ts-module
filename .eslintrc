@@ -10,7 +10,7 @@
     "plugin:@typescript-eslint/recommended",
     "plugin:prettier/recommended"
   ],
-  "ignorePatterns": ["webpack.*.js"],
+  "ignorePatterns": ["*.?config.js*", "node_modules"],
   "rules": {
     "no-console": 1
   }
